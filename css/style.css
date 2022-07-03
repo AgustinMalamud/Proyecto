@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+h1,
+h2{
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	display: flex;
+    justify-content: space-around;
+	margin: 15px;
+}
+body {
+	background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
+	url('https://i.blogs.es/84c4e4/polaroid_lab/1366_2000.jpeg');
+}
+
+.leyenda{
+	color: rgb(0, 0, 0);
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	display: flex;
+    justify-content: flex-start;
+	margin: 15px;
+}
+h3{
+	color: rgb(0, 0, 0);
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+}
+.flex-container{
+	font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px;
+    width: 100%;
+	font-size: 2rem;
+	height: 120px;
+	border-bottom: 2px solid #fff;
+}
+.flex-container ul{
+	display: flex;
+	list-style: none;
+}
+.flex-container ul li {
+	margin-left: 30px;
+}
+
+.flex-container a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+.flex-container a:hover{
+	text-decoration: none;
+	color: #ffc038;
+}
+.nav__list li a{
+	margin: 5px;
+}
+.banner{
+	width: 100%;
+}
+section article p{
+	color: #ffc038;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+}
+.text-alert{
+	color: hsl(34, 97%, 65%);
+}
+.grid-conteiner{
+	display: grid;
+	grid-template-columns: auto auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.mapa{
+	border: 2px solid wheat;
+	height: auto;
+	margin-top: 30px;
+	border-radius: 12px;
+	box-shadow: 10px 10px 10px rgba(5, 5, 5, 0.367);
+}
+.cuerpo__imagen--sm{
+	display: flex;
+	width: 170px;
+	height: auto;
+	border-style: solid;
+	border-color: #fff;
+	background: #fff;
+	border-width: 2px;
+	border-radius: 10px;
+	position: relative;
+	left: 12px;
+}
+.facebook{
+	width: 35px;
+	height: auto;
+}
+.instagram{
+	width: 35px;
+	height: auto;
+	margin-left: 5px;
+}
+.abajo{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 22%;
+	background-color: #000;
+}
+
+.abajo h3 {
+	color: #fff;
+}
+label{
+	color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    padding: 6px;
+}
+.bt{
+	display: flex;
+    align-items: center ;
+    flex-direction: column;
+	border: 1px solid #fff;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	
+}
+
+.bt input {
+	background: rgb(209, 201, 201);
+	border-radius: 5px;
+	border: 0px;
+	width: 350px;
+	height: 35px;
+	font-size: 18px
+	
+}
+
+.bt h1{
+	color: #fff;
+}
+.boton{
+	margin: 7px;
+}
+.container img {
+	width: 400px;
+	height: 300px;
+	margin: 50px;
+	margin-top: 150px;
+	border-style:groove;
+	box-shadow: 10px 5px rgba(0, 0 , 0, 0.4);
+	border-color: rgba(0, 0 , 0, 0.4);
+	border-width: 3px;
+	border-radius: 10px;
+}
+.container{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.texto p{
+	color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    padding: 6px;
+}
+.tachado{
+	color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    padding: 6px;
+	text-decoration: line-through red;}
+.texto{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label12 {
+	width: 100px;
+	height: 40px;
+	margin-left: 200px;
+	
+} 
+
+.imp2 {
+	width: 90px;
+	margin-left: 200px;
+	
+}
+
+.facebook:hover{
+    transform: scale(1.3);
+}
+
+.instagram:hover{
+    transform: scale(1.3);
+}
+
+/*GALERIA*/
+
+
+
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    color: #fff;
+}
+
+.linea {
+    background: #fff;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.fotos {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.fotos .galeria {
+    max-width: 750px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap: 1rem;
+}
+
+.fotos .galeria .img-a {
+    background: black;
+    grid-column: 1 / 3;
+    border-radius: 10px;
+    position: relative;
+    background-image: url('https://static1.elcorreo.com/www/multimedia/201907/08/media/cortadas/polaroid-originals-9008-onestep-2-vf-instant-film-camera-D_NQ_NP_663188-MLU27485961110_062018-F-kNFI-U80707686089MJI-1248x770@El%20Correo.jpg');
+    background-size: cover;
+}
+
+.fotos .galeria .img-a .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 243, 247, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: scale(0);
+    transition: .3s ease;
+}
+.fotos .galeria .img-a .capa img {
+    width: 500px;
+    height: 250px;
+    color: #fff;
+}
+
+.fotos .galeria .img-a:hover .capa{
+    transform: scale(1);
+}
+
+.fotos .galeria .img-b {
+    background: red;
+    grid-row: 2 / 4;
+    border-radius: 10px;
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1600176970141-60a670821dfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+    background-size: cover;
+}
+
+.fotos .galeria .img-b .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 243, 247, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.fotos .galeria .img-b .capa img{
+    width: 400px;
+    height: 200px;
+}
+
+.fotos .galeria .img-b:hover .capa{
+    transform: scale(1);
+}
+
+.fotos .galeria .img-c {
+    background: gray;
+    border-radius: 10px;
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1565252503738-0d47de5d50e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXJyYXN8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+}
+
+.fotos .galeria .img-c .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 243, 247, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.fotos .galeria .img-c .capa img{
+    width: 400px;
+    height: 200px;
+}
+
+.fotos .galeria .img-c:hover .capa{
+    transform: scale(1);
+}
+
+.fotos .galeria .img-d {
+    background: blue;
+    border-radius: 10px;
+    position: relative;
+    background-image: url('https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1585189288/content-items/003/937/340/Polaroid_Annie_Spratt_Unsplash-original.jpg?1585189288');
+    background-size: cover;
+}
+
+.fotos .galeria .img-d .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 243, 247, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.fotos .galeria .img-d .capa img{
+    width: 400px;
+    height: 200px;
+}
+
+.fotos .galeria .img-d:hover .capa{
+    transform: scale(1);
+}
+
+.fotos .galeria .img-e {
+    background: green;
+    border-radius: 10px;
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1592485927018-79143e0f75c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGMlQzMlQTFtYXJhJTIwcG9sYXJvaWR8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+}
+
+.fotos .galeria .img-e .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 243, 247, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.fotos .galeria .img-e .capa img{
+    width: 400px;
+    height: 200px;
+}
+
+.fotos .galeria .img-e:hover .capa{
+    transform: scale(1);
+}
+
+.fotos .galeria .img-f {
+    background: brown;
+    grid-column: 2 / 4;
+    border-radius: 10px;
+    position: relative;
+    background-image: url('https://www.encuentra-tu-fotografo.com/media/cache/resolve/remote_news_content/uploads/newsContentPicture/Polaroid-2-jpg-60b4ff1462beb.jpeg');
+    background-size: cover;
+}
+
+.fotos .galeria .img-f .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 243, 247, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.fotos .galeria .img-f .capa img{
+    width: 600px;
+    height: 200px;
+}
+
+.fotos .galeria .img-f:hover .capa{
+    transform: scale(1);
+}
+
+
+
+@media (max-width: 1024px){
+	.nav__list{
+		flex-direction: column;
+	}
+}
+@media (max-width: 1024px){
+	.grid-conteiner{
+		flex-direction: column;
+	}
+}
